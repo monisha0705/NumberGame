@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class NumberGame {
     public static void main(String[] args) {
         int ActualNumber = (int) (Math.random()*100)+1;
-        System.out.println(ActualNumber);
+        //System.out.println(ActualNumber);this is used for our checking generally we shouldn't add this line.
         Scanner sc = new Scanner(System.in);
         int attempts = 5;
         boolean guessedCorrectly = false;
